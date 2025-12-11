@@ -1,5 +1,5 @@
 # **Survey Container** 
-![SurveyContainer](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Readme/SurveyContainer.png)
+![SurveyContainer](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Readme/SurveyContainer.png)
 
 # 📦 Survey Container
 
@@ -32,7 +32,6 @@ npm i survey-container
 ### Evita versiones antiguas
 
 Las versiones anteriores pueden contener errores ya corregidos. Siempre revisa el package.json y actualiza si es necesario para evitar comportamientos inesperados.
-
 
 ### Integra en tu componente 
 
@@ -214,8 +213,6 @@ export class SurveyContainerComponent {
 
 </details>
 
-
-
 <details>
 <summary>⚙️ Integración del lado del Back-End</summary>
 
@@ -248,7 +245,7 @@ CREATE TABLE IF NOT EXISTS Response (
 );
 ```
 
-[schema.sql](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Database/schema.sql)
+[schema.sql](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Database/schema.sql)
 
 </details>
 
@@ -277,7 +274,7 @@ El archivo `metrics.php` expone un endpoint encargado de recuperar todas las enc
 
 Esto permite, por ejemplo, generar reportes o listados globales para su administración.
 
-[metrics.php](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/metrics/metrics.php)
+[metrics.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/metrics/metrics.php)
 
 ## questions
 
@@ -285,7 +282,7 @@ El archivo `questions.php` obtiene las preguntas asociadas a una encuesta espec�
 
 De esta manera, se asegura que cada encuesta cargue únicamente las preguntas correspondientes a su configuración.
 
-[questions.php](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/questions/questions.php)
+[questions.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/questions/questions.php)
 
 ## response
 
@@ -309,9 +306,9 @@ Dentro de la carpeta `surveys/` se gestionan las encuestas propiamente dichas:
 
 `survey.php` → Obtiene la información de una encuesta específica a partir de su ID único.
 
-[create.php](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/create.php)
+[create.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/create.php)
 
-[survey.php](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/survey.php)
+[survey.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/survey.php)
 
 </details>
 
@@ -340,7 +337,7 @@ El archivo `metrics.js` expone un endpoint encargado de recuperar todas las encu
 
 Esto permite, por ejemplo, generar reportes o listados globales para su administración.
 
-[metrics.js](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/metrics/metrics.js)
+[metrics.js](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/metrics/metrics.js)
 
 ## questions
 
@@ -348,7 +345,7 @@ El archivo `questions.js` obtiene las preguntas asociadas a una encuesta especí
 
 De esta manera, se asegura que cada encuesta cargue únicamente las preguntas correspondientes a su configuración.
 
-[questions.js](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/questions/questions.js)
+[questions.js](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/questions/questions.js)
 
 ## response
 
@@ -360,9 +357,9 @@ En la carpeta `response/` se encuentran dos archivos clave:
 
 Estos endpoints permiten manejar tanto la consulta como el registro de información de manera organizada.
 
-[getResponse.js](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/response/getResponse.js)
+[getResponse.js](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/response/getResponse.js)
 
-[postResponse.js](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/response/postResponse.js)
+[postResponse.js](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/response/postResponse.js)
 
 ## surveys
 
@@ -372,33 +369,13 @@ Dentro de la carpeta `surveys/` se gestionan las encuestas propiamente dichas:
 
 `survey.js` → Obtiene la información de una encuesta específica a partir de su ID único.
 
-[create.js](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/surveys/create.js)
+[create.js](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/surveys/create.js)
 
-[survey.js](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/surveys/survey.js)
-
-
-</details>
+[survey.js](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/NodeJS/surveys/survey.js)
 
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 
