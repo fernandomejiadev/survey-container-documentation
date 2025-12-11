@@ -294,9 +294,9 @@ En la carpeta `response/` se encuentran dos archivos clave:
 
 Estos endpoints permiten manejar tanto la consulta como el registro de información de manera organizada.
 
-[getResponse.php](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/getResponse.php)
+[getResponse.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/getResponse.php)
 
-[postResponse.php](https://github.com/FernadoCodeDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/postResponse.php)
+[postResponse.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/postResponse.php)
 
 ## surveys
 
