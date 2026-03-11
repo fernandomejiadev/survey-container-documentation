@@ -315,6 +315,8 @@ Dentro de la carpeta `surveys/` se gestionan las encuestas propiamente dichas:
 <details>
 <summary> Integración con Node.JS </summary>
 
+<br>
+
 En el caso de usar **NodeJS**, la estructura básica de archivos recomendada es la siguiente:
 
 ```
