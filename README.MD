@@ -42,14 +42,17 @@ Importa el paquete según tu framework Y usa el componente con los props necesar
 Una vez configurado todo, podrás mostrar encuestas, recolectar respuestas y analizar métricas fácilmente.
 Disfruta de una integración limpia, extensible y flexible.
 
-
 # Integración en el Front-End y Back-end
+
+<br>
 
 <details>
 <summary>🎨 Integración del lado del Front-End</summary>
 
 <details>
 <summary> Props del Front </summary>
+
+<br>
 
 | Prop               | Tipo                               | Obligatorio | Descripción                                                                                                                                                                                                                                                                           |
 | ------------------ | ---------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -62,11 +65,12 @@ Disfruta de una integración limpia, extensible y flexible.
 | `loadingText`      | `string`                           | ❌ No        | Texto que se muestra mientras la encuesta está cargando. Por defecto: `"Cargando encuesta..."`.                                                                                                                                                                                       |
 | `submitButtonText` | `string`                           | ❌ No        | Texto del botón de envío. Por defecto: `"Enviar respuestas"`.                                                                                                                                                                                                                         |
 | `className`        | `string`                           | ❌ No        | Clase CSS personalizada para aplicar estilos adicionales al contenedor del widget.                                                                                                                                                                                                    |
-
 </details>
 
 <details>
 <summary> Integración con React </summary>
+
+<br>
 
 # Integración con React
 
@@ -112,6 +116,8 @@ export default SurveyContainer;
 
 <details>
 <summary> Integración con Vue </summary>
+
+<br>
 
 # Integración con Vue JS
 
@@ -161,6 +167,8 @@ export default {
 
 <details>
 <summary> Integración con Angular </summary>
+
+<br>
 
 # Integración con Angular
 
