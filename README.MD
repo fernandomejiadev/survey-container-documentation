@@ -49,6 +49,8 @@ Disfruta de una integración limpia, extensible y flexible.
 <details>
 <summary>🎨 Integración del lado del Front-End</summary>
 
+<br>
+
 <details>
 <summary> Props del Front </summary>
 
