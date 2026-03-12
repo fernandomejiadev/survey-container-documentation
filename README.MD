@@ -14,12 +14,12 @@ Desde la configuración de tu base de datos hasta la integración en tu frontend
 ### Instala la dependencia
 
 Crea una base de datos y Asegúrate de incluir las tablas requeridas:
-**Survey, Question y Response**, siguiendo la estructura definida en la documentación.
+`Survey`, `Question` y `Response`, siguiendo la estructura definida en la documentación.
 
 ### Prepara el backend
 
 Agrega los archivos para gestionar métricas, encuestas y respuestas:
-**metrics, questions, getResponse, postResponse, create, survey**
+`metrics`, `questions`, `getResponse`, `postResponse`, `create`, `survey`
 
 ### Instala la dependencia
 
