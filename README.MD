@@ -35,7 +35,7 @@ Las versiones anteriores pueden contener errores ya corregidos. Siempre revisa e
 
 ### Integra en tu componente 
 
-Importa el paquete según tu framework Y usa el componente con los props necesarios (surveyId, fetchUrl, responseUrl, etc.).
+Importa el paquete según tu framework Y usa el componente con los props necesarios **(surveyId, fetchUrl, responseUrl, etc.).**
 
 ### ¡Listo para usar!
 
