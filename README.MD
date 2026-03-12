@@ -31,7 +31,7 @@ npm i survey-container
 
 ### Evita versiones antiguas
 
-Las versiones anteriores pueden contener errores ya corregidos. Siempre revisa el package.json y actualiza si es necesario para evitar comportamientos inesperados.
+Las versiones anteriores pueden contener errores ya corregidos. Siempre revisa el `package.json` y actualiza si es necesario para evitar comportamientos inesperados.
 
 ### Integra en tu componente 
 
