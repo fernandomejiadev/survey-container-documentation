@@ -113,58 +113,6 @@ function SurveyContainer() {
 export default SurveyContainer;
 ```
 
-
-</details>
-
-<details>
-<summary> Integración con Vue </summary>
-
-<br>
-
-# Integración con Vue JS
-
-El componente **Survey Container** te permite integrar encuestas de manera sencilla dentro de tu aplicación desarrollada con Vue. Con él, puedes mostrar formularios interactivos y personalizables sin necesidad de implementar toda la lógica desde cero.
-
-## Componente
-
-Para utilizar el componente **SurveyWidget** de la dependencia **survey container**, primero debes importarlo en tu proyecto de Vue. Este componente es flexible, permitiendo usar rutas propias para obtener y guardar encuestas.
-
-Además, puedes integrar librerías de notificaciones como **Vue Toastification**, lo que facilita mostrar mensajes personalizados, por ejemplo:
-
-- **Encuesta enviada con éxito**
-- **Ocurrió un error al cargar la encuesta**
-
-De esta forma, garantizas una mejor experiencia de usuario al manejar tanto confirmaciones como errores dentro de tu aplicación.
-
-```
-<template>
-    <div class="">
-        <SurveyWidget :surveyId="surveyId" fetchUrl="Route to access the survey"
-            responseUrl="Path to save answers"
-            onAlert="Función para mostrar alertas. Puedes usar vue-toastification" />
-    </div>
-</template>
-
-<script>
-import { useRoute } from 'vue-router';
-import { SurveyWidget } from 'survey-container';
-
-export default {
-    components: {
-        SurveyWidget
-    },
-    setup() {
-        const route = useRoute();
-        const surveyId = route.params.surveyId;
-
-        return {
-            surveyId
-        };
-    }
-};
-</script>
-```
-
 </details>
 
 <details>
