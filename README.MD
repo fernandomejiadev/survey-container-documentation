@@ -118,16 +118,16 @@ export default SurveyContainer;
 </details>
 
 <details>
-<summary>⚙️ Integración del lado del Back-End</summary>
+<summary>Integración del lado del Back-End</summary>
 
-<br>
+# Integración del lado del Back-End
 
 Para que el componente **Survey Container** funcione correctamente, es necesario configurar en el backend una serie de endpoints que gestionen encuestas, preguntas, métricas y respuestas.
 
 <details>
 <summary> Tablas de la base de datos </summary>
 
-<br>
+## Tablas de la base de datos
 
 Para ejecutar la dependencia se necesitara tener siertos campos en la base de datos, el script de creación de base de datos, tablas y campos requeridos:
 script de creación de base de datos
@@ -158,7 +158,7 @@ CREATE TABLE IF NOT EXISTS Response (
 </details>
 
 <details>
-<summary> Integración con PHP </summary>
+<summary> Integración con PHP</summary>
 
 <br>
 
@@ -222,8 +222,6 @@ Dentro de la carpeta `surveys/` se gestionan las encuestas propiamente dichas:
 
 </details>
 
-
 </details>
 
-
-
+--
