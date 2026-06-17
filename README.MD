@@ -47,14 +47,14 @@ Disfruta de una integración limpia, extensible y flexible.
 <br>
 
 <details>
-<summary>🎨 Integración del lado del Front-End</summary>
+<summary>Integración del lado del Front-End</summary>
 
-<br>
+# Integración del lado del Front-End
 
 <details>
 <summary> Props del Front </summary>
 
-<br>
+# Props del Front
 
 | Prop               | Tipo                               | Obligatorio | Descripción                                                                                                                                                                                                                                                                           |
 | ------------------ | ---------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
