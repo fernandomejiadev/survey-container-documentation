@@ -184,7 +184,7 @@ El archivo `metrics.php` expone un endpoint encargado de recuperar todas las enc
 
 Esto permite, por ejemplo, generar reportes o listados globales para su administración.
 
-[metrics.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/metrics/metrics.php)
+*[metrics.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/metrics/metrics.php)*
 
 ## questions
 
@@ -192,7 +192,7 @@ El archivo `questions.php` obtiene las preguntas asociadas a una encuesta espec�
 
 De esta manera, se asegura que cada encuesta cargue únicamente las preguntas correspondientes a su configuración.
 
-[questions.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/questions/questions.php)
+*[questions.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/questions/questions.php)*
 
 ## response
 
@@ -204,9 +204,9 @@ En la carpeta `response/` se encuentran dos archivos clave:
 
 Estos endpoints permiten manejar tanto la consulta como el registro de información de manera organizada.
 
-[getResponse.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/getResponse.php)
+*[getResponse.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/getResponse.php)*
 
-[postResponse.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/postResponse.php)
+*[postResponse.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/response/postResponse.php)*
 
 ## surveys
 
@@ -216,9 +216,9 @@ Dentro de la carpeta `surveys/` se gestionan las encuestas propiamente dichas:
 
 `survey.php` → Obtiene la información de una encuesta específica a partir de su ID único.
 
-[create.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/create.php)
+*[create.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/create.php)*
 
-[survey.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/survey.php)
+*[survey.php](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Backend-Integration/PHP/surveys/survey.php)*
 
 </details>
 
