@@ -153,14 +153,14 @@ CREATE TABLE IF NOT EXISTS Response (
 );
 ```
 
-[schema.sql](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Database/schema.sql)
+*[schema.sql](https://github.com/FernandoMejiaDev/Survey-Container-Documentation/blob/main/Database/schema.sql)*
 
 </details>
 
 <details>
-<summary> Integración con PHP</summary>
+<summary>Integración con PHP</summary>
 
-<br>
+## Integración con PHP
 
 En el caso de usar **PHP**, la estructura básica de archivos recomendada es la siguiente:
 
@@ -224,4 +224,4 @@ Dentro de la carpeta `surveys/` se gestionan las encuestas propiamente dichas:
 
 </details>
 
---
+---
